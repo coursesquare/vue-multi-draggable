@@ -1,13 +1,14 @@
 {
-  "name": "vuedraggable",
-  "version": "2.24.0",
-  "description": "draggable component for vue",
+  "name": "csq-vue-multi-draggable",
+  "version": "1.0.0",
+  "description": "Multi draggable component for vue",
+  "author": "Save Pongsiri <save@coursesquare.co> (https://coursesquare.co)",
   "license": "MIT",
   "main": "dist/vuedraggable.umd.min.js",
   "types": "src/vuedraggable.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SortableJS/Vue.Draggable.git"
+    "url": "https://github.com/coursesquare/vue-multi-draggable.git"
   },
   "private": false,
   "scripts": {
@@ -15,7 +16,7 @@
     "build:doc": "vue-cli-service build ./example/main.js --dest docs --mode development",
     "build": "vue-cli-service build --name vuedraggable --entry ./src/vuedraggable.js --target lib",
     "lint": "vue-cli-service lint src example",
-    "prepublishOnly": "npm run lint && npm run test:unit && npm run build:doc && npm run build",
+    "prepublishOnly": "npm run lint && npm run build:doc && npm run build",
     "test:unit": "vue-cli-service test:unit --coverage",
     "test:coverage": "vue-cli-service test:unit --coverage --verbose && codecov"
   },
@@ -28,7 +29,8 @@
     "list",
     "Sortable.js",
     "component",
-    "nested"
+    "nested",
+    "muti"
   ],
   "dependencies": {
     "sortablejs": "^1.10.1"
