@@ -1,3 +1,9 @@
+How to publish this package
+
+```bash
+npm publish --access pubic
+```
+
 <p align="center"><img width="140"src="https://raw.githubusercontent.com/SortableJS/Vue.Draggable/master/logo.svg?sanitize=true"></p>
 <h1 align="center">Vue.Draggable</h1>
 
